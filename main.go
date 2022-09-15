@@ -18,7 +18,7 @@ func main() {
 	log.SetFlags(0)
 
 	mtrBin := flag.String("mtr", "mtr", "path to `mtr` binary")
-	bind := flag.String("bind", ":8080", "bind address")
+	bind := flag.String("bind", ":9348", "bind address")
 	schedule := flag.String("schedule", "@every 60s", "Schedule at which often `mtr` is launched")
 	doPrintVersion := flag.Bool("version", false, "show version")
 	doPrintUsage := flag.Bool("h", false, "show help")

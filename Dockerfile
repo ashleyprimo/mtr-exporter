@@ -19,7 +19,6 @@ RUN        apk add -U --no-cache mtr
 COPY       --from=build-env /go/src/app/mtr-exporter /usr/bin/mtr-exporter
 
 
-EXPOSE     9117
+EXPOSE     9348
 
-CMD        ["--web.listen-address=:9117"]
 ENTRYPOINT ["/usr/bin/mtr-exporter"]
