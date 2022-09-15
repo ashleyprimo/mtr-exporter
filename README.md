@@ -1,4 +1,5 @@
 # mtr-exporter
+**This fork is for testing purpose, and includes some non-production ready changes. I hope to refactor when I have some more time!** _Use at your own risk..._
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/mgumz/mtr-exporter)](https://goreportcard.com/report/github.com/mgumz/mtr-exporter)
 
